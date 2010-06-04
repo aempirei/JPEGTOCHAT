@@ -1,0 +1,50 @@
+compile this, u heard?
+
+aka type make or gmake.
+
+also, if complaints about jpeglib.h not found and u know u have it try
+the Makefile.other file
+
+Copyright(c) 2006 by Christopher Abad
+
+AIM: Ambient Empire
+IRC: aempirei
+URL: http://www.the-mathclub.net
+mySpace: http://www.myspace.com/aempirei
+
+./jpegtochat for help suckas
+
+if u cant figure this fool out, oh well.
+
+dr. adam o. for jpeg codes since libjpeg doesnt have documentation.
+
+some issues with display may be caused from the fact that if you use
+screen and even though your term supports xterm colors, the term type
+isnt set right and they are workin, or maybe your term doesnt really
+support x-term colors. in either cause, if your client isnt mirc, then
+use -c ansi cause that is pretty consistent across all unix-based
+ansi-supporting clients
+
+also, if whatever it is that you are using supports bold ansi bg colors
+in leiu of blinking ansi text, then you can use the -c ansiplus to get
+a larger color palette.
+
+if you only specify -x or -y it will resize the other dimension
+accordingly taking into account the font aspect ratio also
+
+safeansi mode means it doesnt use ansi bold, this makes this client the
+most universal -c option.  mirc doesnt support ansi colors tho. this
+-c will work if you are having trouble with irssi/silc -c mode as your
+terminal might not be set TERM=tty or some other reason xterm colors
+are not showing up. safeansi sacrifices considerable color depth but
+at least it will work on the most irc clients simultaneously.
+
+CONFIG FILE SHIT!
+
+i support config files now also, to check them out look at j2crc.mirc or
+j2crc.ansi if you are in a unix terminal just fuckin move j2crc.ansi to
+$HOME/.j2crc and make sure yuo have a terminal font installed or edit the
+file and chagne the font 
+
+the config file format is exactly like command line parameters
+
