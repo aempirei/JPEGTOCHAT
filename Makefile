@@ -1,12 +1,12 @@
 CC = gcc
-CCFLAGS = -Wall -O3 -funroll-loops -ljpeg -lm
-CFLAGS = -Wall -O3 -funroll-loops
+CCFLAGS = -ljpeg -lm
+CFLAGS = -ljpeg -lm
 PROGRAMS = jpegtochat
 
 all: $(PROGRAMS)
 
 jpegtochat: jpegtochat.o libptoc.o
-	$(CC) $(CCFLAGS) -o $@ $^
+	$(CC) -o $@ $^ $(CCFLAGS)
 
 clean:
 	rm -f *.o *~
